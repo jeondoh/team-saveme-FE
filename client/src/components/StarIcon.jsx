@@ -9,6 +9,7 @@ const StarIcon = ({ wished, job }) => {
   const handleChangeisWished = (value) => setIsWished(!value);
 
   const wish = async (job) => {
+    setIsWished(!isWished);
     const res = await wishJob(job);
   };
 
@@ -18,7 +19,7 @@ const StarIcon = ({ wished, job }) => {
         className="StarIcon"
         onClick={() => {
           wish(job);
-          handleChangeisWished(wished);
+          // handleChangeisWished(wished);
         }}
         color={isWished ? "#FDF179" : "#8691a5"}
       ></AiFillStar>

@@ -76,8 +76,9 @@ export default function Compare() {
         setWishList((oldList) => {
           if(!data.status){
             data.status = LIVE;
+            return [...oldList, data];
           }
-          return [...oldList, data];
+          return [];
         });
       });
       setWishStatus(LIVE);
