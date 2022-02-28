@@ -1,5 +1,7 @@
 # 해커톤 - 사람인 공고 비교하기 서비스
 
+![헬로메가바이트해커톤 타이포 로고 (다크버전)](https://user-images.githubusercontent.com/41669026/155953674-59da535d-0667-4423-baca-8625fdc1b3ff.png)
+
 ### UX/UI
 황지선
 
