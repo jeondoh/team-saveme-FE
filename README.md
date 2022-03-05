@@ -2,6 +2,8 @@
 
 ![헬로메가바이트해커톤 타이포 로고 (다크버전)](https://user-images.githubusercontent.com/41669026/155953674-59da535d-0667-4423-baca-8625fdc1b3ff.png)
 
+![해커톤 결과](https://user-images.githubusercontent.com/41669026/155930069-c67f54e2-6729-4415-9952-ddd854e9b3ef.png)
+
 ### UX/UI
 황지선
 
@@ -12,8 +14,6 @@
 양승훈 정이수
 
 - https://www.figma.com/file/Y9Y4AUiRfRqouvnYcRMOPk/%ED%95%B4%EC%BB%A4%ED%86%A4?node-id=26%3A4
-
-![해커톤 결과](https://user-images.githubusercontent.com/41669026/155930069-c67f54e2-6729-4415-9952-ddd854e9b3ef.png)
 
 ![살려조_최종발표_page-0001](https://user-images.githubusercontent.com/41669026/155253354-0fced7dc-d3d4-4215-83f9-61ea9781019c.jpg)
 ![살려조_최종발표_page-0002](https://user-images.githubusercontent.com/41669026/155253386-87d72986-c77c-4487-843c-3bba3741cd6c.jpg)
