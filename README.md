@@ -13,7 +13,41 @@
 ### BE
 양승훈 정이수
 
+
+## 개발목록
+- grid 레이아웃을 주로 활용해 사용자가 공고를 비교하기 쉽게 개발
+- react-query를 활용한 데이터 캐싱 및 fetch
+- 관심 공고를 직접 선택하여 평행하게 나열하여 비교할 수 있게 개발
+- 관심 공고 내 비교 항목들을 선택하여 항목별로 비교 가능하게 개발
+- recoil을 이용한 비교 항목들 저장, 항목별 status 상태관리, atom get을 이용해 status별 데이터 return
+---
+![image](https://user-images.githubusercontent.com/41669026/158429031-ccac52da-ea57-47e2-bb31-db3868c5b48f.png)
+
+최초의 비교공고 데이터는 react-query를 사용해 fetch하여 가져와 뿌려주며, 스크랩한 공고 목록은 recoil로 상태관리를 합니다.
+
+관심공고를 스크랩하면 아래 사진과 같이 카테고리별로 공고를 비교할 수 있게 됩니다.
+
+![image](https://user-images.githubusercontent.com/41669026/158428736-031e1631-2335-4164-a7de-6d8508779a9c.png)
+
+상단의 비교항목선택 카테고리 버튼 클릭시 해당 카테고리가 활성화/비활성화 처리가 되며 비교중인 공고의 데이터도 함께 활성화/비활성화가 됩니다. 
+
+![카테고리1](https://user-images.githubusercontent.com/41669026/158430398-2c1aaad0-17b7-40f9-9b5c-9eea47d7701d.PNG)
+![카테고리2](https://user-images.githubusercontent.com/41669026/158430400-45c3aa56-f349-42f8-9b9d-20b5f68e7da6.PNG)
+
+카테고리별 데이터는 recoil을 통해 관리하게 됩니다. 카테고리 버튼 클릭시 활성화/비활성화가 되므로 해당 버튼을 클릭시 마다 
+공고 데이터 배열을 재생성하여 보여지게 됩니다.
+
+![상태별 공고 리스트](https://user-images.githubusercontent.com/41669026/158431441-e2cf50f6-ac99-4db2-91f9-918f72ed9c97.PNG)
+
+status 변수는 상수로 관리하였으며, 전체공고, 스크랩한 공고, 스크랩 취소한 공고 리스트들을 selector와 get을 사용하여 status별로 배열을 뽑아낼 수 있게 하였습니다.
+
+
+---
+
+## UI figma URL
 - https://www.figma.com/file/Y9Y4AUiRfRqouvnYcRMOPk/%ED%95%B4%EC%BB%A4%ED%86%A4?node-id=26%3A4
+
+## 기획자료
 
 ![살려조_최종발표_page-0001](https://user-images.githubusercontent.com/41669026/155253354-0fced7dc-d3d4-4215-83f9-61ea9781019c.jpg)
 ![살려조_최종발표_page-0002](https://user-images.githubusercontent.com/41669026/155253386-87d72986-c77c-4487-843c-3bba3741cd6c.jpg)
